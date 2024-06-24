@@ -52,7 +52,7 @@ __help__ = """
  
  ❍ /tr hi-en* ➛* ᴛʀᴀɴsʟᴀᴛᴇs ʜɪɴᴅɪ ᴛᴏ ᴇɴɢʟɪsʜ
 
-✿ *ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇs* ✿
+ *ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇs* 
 
 ❍ `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
 et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hi,hmn,hr,ht,hu,hy,
@@ -82,11 +82,11 @@ from YukiBot import pbot as client
 
 Mukesh = "https://graph.org/file/f97e3c200cd88a366bc21.jpg"
 
-@client.on_message(filters.command(["bot_repo", "source"]))
+@client.on_message(filters.command(["ghost", "source"]))
 async def repo(client, message):
     await message.reply_photo(
         photo=Mukesh,
-        caption=f"""**❍ ʜᴇʏ {message.from_user.mention()}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ !\n\n❍ ɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**\n\n❍ **ɪғ ʏᴏᴜ ᴡᴀɴᴛ ๛ᴀ ᴠ ɪ s ʜ ᴀ ༗ ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.**
+        caption=f"""
 """,
         reply_markup=InlineKeyboardMarkup(
             [
