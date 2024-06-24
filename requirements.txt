@@ -57,7 +57,6 @@ gtts
 heroku3==5.2.1
 alphabet_detector
 wget
-# nekos.py
 yt_dlp
 youtube_search
 youtube_search_python
