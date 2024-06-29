@@ -64,13 +64,13 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-RUN git clone https://github.com/error-corpse/yuki_paradox /root/YukiBot
+RUN git clone https://github.com/error-corpse/yuki-koyeb /root/YukiBot
 WORKDIR /root/YukiBot
 
-#Copy config file to /root/MukeshRobot/MukeshRobot
+#Copy config file to /root/YukiBot/YukiBot
 COPY ./YukiBot/config.py ./YukiBot/config.py* /root/YukiBot/YukiBot/
 
-ENV PATH="/home/bot/bin:$PATH"
+# ENV PATH="/home/bot/bin:$PATH"
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
