@@ -9,11 +9,11 @@ class Config(object):
   
     ANILIST_SECRET = os.getenv("ANILIST_SECRET", "NeCEq9A1hVnjsjZlTZyNvqK11krQ4HtSliaM7rTN")
   
-    API_ID = os.getenv("API_ID", None)
+    API_ID = os.getenv("API_ID", 6435225)
    
-    API_HASH = os.getenv("API_HASH",None)
+    API_HASH = os.getenv("API_HASH",4e984ea35f854762dcde906dce426c2d)
    
-    TOKEN = os.getenv("TOKEN", None)
+    TOKEN = os.getenv("TOKEN", 5527818445:AAF3W1rNsZt0EqLc1J1-612gqlFrqqRy0o4)
   
     OWNER_ID = os.getenv("OWNER_ID", "6259443940") 
 
