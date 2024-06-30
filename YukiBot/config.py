@@ -13,7 +13,7 @@ class Config(object):
    
     API_HASH = os.getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
    
-    TOKEN = os.getenv("TOKEN", "5527818445:AAF3W1rNsZt0EqLc1J1-612gqlFrqqRy0o4")
+    TOKEN = os.getenv("TOKEN", "5527818445:AAE7TLprBfyUuQvYZsaOesQ0F-9C2sl2I80")
   
     OWNER_ID = os.getenv("OWNER_ID", "6259443940") 
 
