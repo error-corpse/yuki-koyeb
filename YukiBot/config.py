@@ -36,7 +36,7 @@ class Config(object):
    
     BOT_USERNAME = os.getenv("BOT_USERNAME" , "Yukii_Onna_bot")
    
-    DATABASE_URL = os.getenv("DATABASE_URL", "postgres://iarfggbc:Vxzh_kG7cxa1kHR5faxcd1kuA4R-UT9E@rosie.db.elephantsql.com/iarfggbc")
+    DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://ghost:ghost_123@localhost:5432/yukibot")
 
     CASH_API_KEY = os.getenv("CASH_API_KEY", "V48U2FLLKRHSVD4X")
     
