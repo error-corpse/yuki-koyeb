@@ -30,7 +30,7 @@ class Config(object):
   
     ERROR_LOGS = os.getenv("ERROR_LOGS", "-1002092954715")
 
-    MONGO_DB_URI= os.getenv("MONGO_DB_URI", None)
+    MONGO_DB_URI= os.getenv("MONGO_DB_URI", "mongodb+srv://knight_rider:GODGURU12345@knight.jm59gu9.mongodb.net/?retryWrites=true&w=majority")
    
     LOG_CHANNEL = os.getenv("LOG_CHANNEL", "-1002092954715")
    
